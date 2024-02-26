@@ -32,3 +32,53 @@ ggplot(data = mydata_age_group, aes(YEAR, NUMBER_CASES)) +
 
 
 
+ggplot(data = diamonds, aes(x = carat, y = price, color = cut)) + 
+  geom_point() + 
+  geom_smooth(method = "lm")
+
+dat = data.frame(longley)
+
+ggplot(data = longley, aes(x= Unemployed, y= GNP)) +
+  geom_line(color = "steelblue", size = 1) +
+  geom_point(color = "steelblue")
+
+
+Dat <- data.frame(longley)
+  
+
+
+# Times series plot  ------------------------------------------------------
+
+
+## Install packages -------------------------------------------------------
+
+install.packages("plotly")  
+library(plotly)
+library(tidyverse)
+
+## Load economics data set ------------------------------------------------
+
+data("economics")
+
+## Create an interactive time series plot ---------------------------------
+
+plot <- plot_ly(data = economics, x = ~date) 
+
+## Add lines for differents variables -------------------------------------
+
+plot <- add_lines(plot, y = ~unemploy, name = "Unemployed")
+plot <- add_lines(plot, y = ~psavert, name = "Personal Saving Rate")
+plot <- add_lines(plot, y = ~pop, name = "Population")
+
+
+plot_2 <- economics %>% 
+  plot_ly(economics, x = "date") %>% 
+  add_lines(plot, y = "unemploy", name = "Unemployed") %>% 
+  add_lines(plot, y = "psavert", name = "Personal Saving Rate") %>% 
+  add_lines(plot, y = "pop", name = "Population")
+
+
+
+
+
+

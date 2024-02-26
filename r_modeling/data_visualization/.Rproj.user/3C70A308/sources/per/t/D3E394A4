@@ -1,0 +1,28 @@
+{
+    "id": "D3E394A4",
+    "path": null,
+    "project_path": null,
+    "type": "object_explorer",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1708947991581.0,
+    "source_on_save": false,
+    "relative_order": 6,
+    "properties": {
+        "id": "4d148fb9f1a949d18e19e097a49b7394",
+        "name": "plot",
+        "title": "plot",
+        "language": "R",
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 18859046782369861,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1708947991581,
+    "read_only": false,
+    "read_only_alternatives": []
+}

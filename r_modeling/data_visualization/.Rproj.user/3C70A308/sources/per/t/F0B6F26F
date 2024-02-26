@@ -1,9 +1,9 @@
 {
     "id": "F0B6F26F",
-    "path": "C:/Users/marti/Desktop/Data Visualisation/Cervical_Cancer.R",
+    "path": "~/GitHub/AMAX_school_2024/r_modeling/data_visualization/Cervical_Cancer.R",
     "project_path": "Cervical_Cancer.R",
     "type": "r_source",
-    "hash": "750979934",
+    "hash": "3359657567",
     "contents": "",
     "dirty": false,
     "created": 1708935821038.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "33,0",
-        "scrollLine": "18"
+        "cursorPosition": "79,0",
+        "scrollLine": "66"
     },
     "folds": "",
-    "lastKnownWriteTime": 1708940393,
+    "lastKnownWriteTime": 1708956997,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1708940393461,
+    "last_content_update": 1708956997182,
     "read_only": false,
     "read_only_alternatives": []
 }
