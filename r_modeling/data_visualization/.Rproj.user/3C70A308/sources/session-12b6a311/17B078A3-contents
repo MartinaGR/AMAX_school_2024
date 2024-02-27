@@ -1,0 +1,28 @@
+#Parametric One-Sample Hypothesis Test for Mean
+
+set.seed(123)
+sample_data <- rnorm(n=30, mean=10, sd=2)
+
+mean_sample <- mean(sample_data)
+
+sigma_known <- 2
+
+z_stat <- (mean_sample - 10) / (sigma_known / sqrt(30))
+p_value <- 2*(1- pnorm(abs(z_stat)))
+
+
+# Parametric one-sample Hypothesis Test - Mean (UnKnown variance)
+
+t.test(mtcars$mpg, mu=20)
+
+
+#  Parametric One-Sample Hypothesis Test - Binary variable
+
+prop.test(table(iris$Species == "setosa"), p=0.3)
+
+
+# Mann Whitney U Test with Iris Data
+
+data(iris)
+
+setosa_lenght 
